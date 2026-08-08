@@ -4,7 +4,8 @@ function Footer()
 {
     return(
         <div className="footer">
-            Copyright &copy; &mdash; {new Date().getFullYear()};
+           Copyright &copy; &mdash; {new Date().getFullYear()};
+           Nika-studio
         </div>
     )
 }

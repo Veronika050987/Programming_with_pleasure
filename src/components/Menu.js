@@ -8,7 +8,7 @@ function Menu()
             <ul>
                 <li><NavLink to="/" className={({isActive}) => isActive ? "nav-link-active" : "nav-link" }>Home page</NavLink></li>
                 <li><NavLink to="/about" className={({isActive}) => isActive ? "nav-link-active" : "nav-link" }>About</NavLink></li>
-                <li><NavLink to={{pathname:"/articles"}}className={({isActive}) => isActive ? "nav-link-active" : "nav-link" }>Articles</NavLink></li>
+                <li><NavLink to={{pathname:"/games"}}className={({isActive}) => isActive ? "nav-link-active" : "nav-link" }>Games</NavLink></li>
             </ul>
         </div>
     )
