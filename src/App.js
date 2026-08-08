@@ -14,8 +14,8 @@ function App() {
       <Menu />
      <main>
        <Routes>
-          <Route path="/" element={<Menu />} />
-          <Route index element={<Home />} />
+          <Route path="/" element={<Home />} />
+          {/* <Route index element={<Home />} /> */}
           <Route path="about" element={<About />} />
           <Route path="info/:id" element={<Info />} />
           <Route path="games" element={<Games />} />

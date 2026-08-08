@@ -30,7 +30,7 @@ function Games()
     );
     return(
         <div>
-            <h2 style={{color: "#00BFFF"}}>Games</h2>
+            {/* <h2 style={{color: "#00BFFF"}}>Games</h2> */}
             {
                 games.map
                 (
