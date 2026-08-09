@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Programming_with_pleasure/static/css/main.c26bb9a3.css",
-    "main.js": "/Programming_with_pleasure/static/js/main.2c3290d7.js",
+    "main.js": "/Programming_with_pleasure/static/js/main.2d3d2a06.js",
     "static/media/lemourchik.png": "/Programming_with_pleasure/static/media/lemourchik.1f30b3211dd57e358d0b.png",
     "static/media/khao.png": "/Programming_with_pleasure/static/media/khao.6a0f0daa7449ead1641a.png",
     "static/media/bee.png": "/Programming_with_pleasure/static/media/bee.1ebb260abf8f14948d15.png",
@@ -10,10 +10,10 @@
     "static/media/logo.svg": "/Programming_with_pleasure/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Programming_with_pleasure/index.html",
     "main.c26bb9a3.css.map": "/Programming_with_pleasure/static/css/main.c26bb9a3.css.map",
-    "main.2c3290d7.js.map": "/Programming_with_pleasure/static/js/main.2c3290d7.js.map"
+    "main.2d3d2a06.js.map": "/Programming_with_pleasure/static/js/main.2d3d2a06.js.map"
   },
   "entrypoints": [
     "static/css/main.c26bb9a3.css",
-    "static/js/main.2c3290d7.js"
+    "static/js/main.2d3d2a06.js"
   ]
 }
