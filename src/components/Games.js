@@ -51,7 +51,7 @@ function Games()
                     }
                 )
             }
-            <Link to="/">{ t('homepage') }</Link>
+            <Link to="/" style={{ display: 'inline-block', marginBottom: '8px' }}>{ t('homepage') }</Link>
         </div>
     )
 }
