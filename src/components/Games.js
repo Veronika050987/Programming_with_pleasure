@@ -2,7 +2,7 @@ import { useState, useContext } from 'react';
 import './Games.css';
 import Game from './Game';
 import { Link } from 'react-router-dom';
-import ship from '../img/ship.png';
+import quitz from '../img/quitz.png';
 import monster2 from '../img/monster2.png';
 import { LanguageContext } from './LanguageContext';
 
@@ -17,13 +17,13 @@ function Games()
                 titleKey: "game_race_title", 
                 contentKey: "game_race_desc",
                 url: "https://veronika050987.github.io/react_nika_space/",
-                image: ship
+                image: monster2
             },
             {
                 titleKey: "game_quiz_title", 
                 contentKey: "game_quiz_desc",
                 url: "https://veronika050987.github.io/react_nika_it_test/",
-                image: monster2
+                image: quitz
             },
             {
                 titleKey: "game_state_title", 
