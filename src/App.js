@@ -6,7 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Games from './components/Games';
 import Footer from './components/Footer';
-import Info from './components/Info';
+// import Info from './components/Info';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           {/* <Route index element={<Home />} /> */}
           <Route path="about" element={<About />} />
-          <Route path="info/:id" element={<Info />} />
+          {/* <Route path="info/:id" element={<Info />} /> */}
           <Route path="games" element={<Games />} />
        </Routes>
      </main>

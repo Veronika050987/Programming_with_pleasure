@@ -1,36 +1,30 @@
-import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { useEffect, useState } from 'react';
+// import { Link } from 'react-router-dom';
 import './About.css';
+import lemourchik from '../img/lemourchik.png';
+import bee from '../img/bee.png';
+import khao from '../img/khao.png';
 
 function About()
 {
-    let [posts, setPosts ] = useState([]);
-    useEffect
-    (
-        () => 
-        {
-            fetch('https://jsonplaceholder.typicode.com/posts')
-                .then(response => response.json())
-                .then(data => setPosts(data)) 
-        }, []
-    ); 
     return(
         <div className='content'>
-            <h2>About</h2>
-            <p>Маршрутизация &mdash; перенаправление компонентов.</p>
-            <ul style ={{display:"block"}}>
-                {
-                    posts.map
-                    (
-                        post => 
-                        (
-                            <li key={post.id}>
-                                <Link to={`/info/${post.id}`}>{post.title}</Link>
-                            </li>
-                        )
-                    )
-                }
-            </ul>
+            <h2>Programming with pleasure</h2>
+            
+            <div className='container'>
+                <div className='programming-block'>
+                    <img src={lemourchik} alt="lemourchik"/>
+                    <p>Программирование учит нас видеть, как лемур, - замечать мельчайшие баги в темноте кода, широко открывать глаза от удивления и ловко прыгать по веткам в Git.</p>
+                </div>
+                <div className='programming-block'>
+                    <img src={khao} alt="khao"/>
+                    <p>Программирование это весело. Особенно первые пять минут, пока ты не пропустил одну запятую и не ушел искать её до трех часов ночи.</p>
+                </div>
+                <div className='programming-block'>
+                    <img src={bee} alt="bee"/>
+                    <p>Программирование и пчела связаны напрямую: нужно построить идеальную архитектуру-соты, искать подходящие цветы-части кода, жужжать над кодом всей командой и собирать сладкий нектар работающего релиза.</p>
+                </div>
+            </div>
         </div>
     )
 }
