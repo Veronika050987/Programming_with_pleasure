@@ -10,7 +10,7 @@ function About()
     const { t } = useContext(LanguageContext);
     return(
         <div className='content'>
-            <h2>{ t('about_title') }</h2>
+            {/* <h2>{ t('about_title') }</h2> */}
             
             <div className='container'>
                 <div className='programming-block'>
