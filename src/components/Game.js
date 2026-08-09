@@ -13,7 +13,7 @@ function Game(props)
                 </a>
             </h2>
             <p>{content}</p>
-            {image && <img src={image} width={54} height={65} alt="Ship" />}
+            {image && <img src={image} width={54} height={65} alt={title} />}
         </div>
     )
 }

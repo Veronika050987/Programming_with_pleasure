@@ -1,36 +1,39 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import './Games.css';
 import Game from './Game';
 import { Link } from 'react-router-dom';
 import ship from '../img/ship.png';
 import monster2 from '../img/monster2.png';
+import { LanguageContext } from './LanguageContext';
+
 
 function Games()
 {
+    const { t } = useContext(LanguageContext);
     let [games, setGames] = useState
     (
         [
             {   
-                title: "Packet race game", 
-                content: "Control the router and the browser to assemble the website before a timer runs out",
+                titleKey: "game_race_title", 
+                contentKey: "game_race_desc",
                 url: "https://veronika050987.github.io/react_nika_space/",
                 image: ship
             },
             {
-                title: "Quitz in poems", 
-                content: "Answer quitz questions",
+                titleKey: "game_quiz_title", 
+                contentKey: "game_quiz_desc",
                 url: "https://veronika050987.github.io/react_nika_it_test/",
                 image: monster2
             },
             {
-                title: "State", content: "State хранит состояние классового компонента."
+                titleKey: "game_state_title", 
+                contentKey: "State хранит состояние классового компонента."
             }
         ]
 
     );
     return(
         <div>
-            {/* <h2 style={{color: "#00BFFF"}}>Games</h2> */}
             {
                 games.map
                 (
@@ -39,8 +42,8 @@ function Games()
                         return(
                             <Game 
                                 key ={index} 
-                                title={item.title} 
-                                content={item.content}
+                                title={ t(item.titleKey)} 
+                                content={ t(item.contentKey) }
                                 url={item.url}
                                 image={item.image}
                             />
@@ -48,7 +51,7 @@ function Games()
                     }
                 )
             }
-            <Link to="/">На главную</Link>
+            <Link to="/">{ t('homepage') }</Link>
         </div>
     )
 }
