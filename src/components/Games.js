@@ -4,6 +4,7 @@ import Game from './Game';
 import { Link } from 'react-router-dom';
 import quitz from '../img/quitz.png';
 import monster2 from '../img/monster2.png';
+import car from '../img/car.png';
 import { LanguageContext } from './LanguageContext';
 
 
@@ -26,8 +27,10 @@ function Games()
                 image: quitz
             },
             {
-                titleKey: "game_state_title", 
-                contentKey: "State хранит состояние классового компонента."
+                titleKey: "game_sql_garage", 
+                contentKey: "game_sql_garage_desc",
+                url: "https://veronika050987.github.io/sql_game/",
+                image: car
             }
         ]
 

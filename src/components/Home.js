@@ -2,6 +2,7 @@ import './Home.css';
 import { LanguageContext } from './LanguageContext';
 import { useContext } from 'react';
 import fact from '../img/fact.jpg';
+import car from '../img/car.png';
 
 function Home()
 {
@@ -16,7 +17,7 @@ function Home()
             <p >{ t('home_site') }</p>
             <div style={{ textAlignment: 'center', margin: '20px 0' }}>
         <img 
-            src={fact} 
+            src={car} 
             alt="Programming illustration" 
             style={{ maxWidth: '100%', height: '230px', borderRadius: '8px' }} 
         />
