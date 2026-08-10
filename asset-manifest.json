@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Programming_with_pleasure/static/css/main.087496d5.css",
-    "main.js": "/Programming_with_pleasure/static/js/main.09c30560.js",
+    "main.css": "/Programming_with_pleasure/static/css/main.57d29e33.css",
+    "main.js": "/Programming_with_pleasure/static/js/main.13c990be.js",
     "static/media/lemourchik.png": "/Programming_with_pleasure/static/media/lemourchik.1f30b3211dd57e358d0b.png",
     "static/media/khao.png": "/Programming_with_pleasure/static/media/khao.6a0f0daa7449ead1641a.png",
     "static/media/bee.png": "/Programming_with_pleasure/static/media/bee.1ebb260abf8f14948d15.png",
@@ -10,11 +10,11 @@
     "static/media/quitz.png": "/Programming_with_pleasure/static/media/quitz.e2ed4ba2684e4980f13e.png",
     "static/media/logo.svg": "/Programming_with_pleasure/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Programming_with_pleasure/index.html",
-    "main.087496d5.css.map": "/Programming_with_pleasure/static/css/main.087496d5.css.map",
-    "main.09c30560.js.map": "/Programming_with_pleasure/static/js/main.09c30560.js.map"
+    "main.57d29e33.css.map": "/Programming_with_pleasure/static/css/main.57d29e33.css.map",
+    "main.13c990be.js.map": "/Programming_with_pleasure/static/js/main.13c990be.js.map"
   },
   "entrypoints": [
-    "static/css/main.087496d5.css",
-    "static/js/main.09c30560.js"
+    "static/css/main.57d29e33.css",
+    "static/js/main.13c990be.js"
   ]
 }
