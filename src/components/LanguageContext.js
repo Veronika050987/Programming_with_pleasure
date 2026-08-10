@@ -18,11 +18,11 @@ const translations =
         game_state_title: "Состояние",
         game_state_desc: "State хранит состояние классового компонента.",
         homepage: "На главную",
-        home_good: "Хороший код - как красивое стихотворение. Это элегантный и идеальный способ решить конкретную задачу. Плохой код это полный кошмар с ужасной структурой и без понятной цели.",
-        home_ability: "Умение красиво и элегантно писать код приходит всегда со временем.",
+        home_good: "Хороший код - элегантный и идеальный способ решить конкретную задачу. Плохой код это полный кошмар с ужасной структурой и без понятной цели.",
+        home_ability: "Умение красиво и элегантно программировать приходит всегда со временем.",
         home_errors: "Мы учимся, делаем ошибки, пытаемся искать нестандартные решения. Чтение кода более опытных программистов помогает понять свои ошибки и получить знания о том, как нужно писать более коротко и более правильно.",
-        home_standard: "На самом деле нет единого стандарта написания кода ни в одной программе, потому что каждый из кодов можно написать чаще всего разными способами и с разными подходами.",
-        home_task: "Задача же опытного и профессионального программиста заключается в том, чтобы написать код коротко, понятно, а самое главное так, чтобы данный код не ломался. В этом с заключается смысл программирования.",
+        home_standard: "Программу можно написать разными способами и с разными подходами.",
+        home_task: "Задача же опытного и профессионального программиста заключается в том, чтобы написать код коротко, понятно, а самое главное так, чтобы данный код не ломался. В этом и заключается смысл программирования.",
         home_site: "Данный сайт создан для того, чтобы показать, что программирование это не просто набор знаков и символов кода. Это увлекательный процесс, который помогает видеть, понимать, размышлять и создавать очень красивые проекты."
     },
     en:
@@ -41,10 +41,10 @@ const translations =
         game_state_title: "State",
         game_state_desc: "State stores the state of a class component.",
         homepage: "Home page",
-        home_good: "Good code is like a beautiful poem. It is just an elegant and perfect way to solve a specific problem. Bad code is a total nightmare. It has a terrible structure and no clear purpose.",
+        home_good: "Good code is is just an elegant and perfect way to solve a specific problem. Bad code is a total nightmare. It has a terrible structure and no clear purpose.",
         home_ability: "The ability to write a beautiful and elegant code always comes with time.",
         home_errors: "We learn, make mistakes and try to find creative solutions. Reading code written by more experienced programmers helps us understand our own mistakes and learn how to write cleaner and more accurate code.",
-        home_standard: "In reality, there is no single standard for writing code in any program, because most blocks of code can be written in many different ways and with various approaches. ",
+        home_standard: "Most blocks of code can be written in many different ways and with various approaches. ",
         home_task: "The ultimate goal of an experienced, professional developer is to write code that is short, easy to understand, and most importantly, bulletproof. That is the true essence of programming.",
         home_site: "This website was created to show that programming is more than just a random set of signs and symbols. It is an exciting process that helps you see, understand, reflect, and build truly beautiful projects."          
     }    
