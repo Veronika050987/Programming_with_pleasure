@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import quitz from '../img/quitz.png';
 import monster2 from '../img/monster2.png';
 import car from '../img/car.png';
+import house from '../img/house.png';
 import { LanguageContext } from './LanguageContext';
 
 
@@ -31,6 +32,12 @@ function Games()
                 contentKey: "game_sql_garage_desc",
                 url: "https://veronika050987.github.io/sql_game/",
                 image: car
+            },
+            {
+                titleKey: "game_house_title",
+                contentKey: "game_house_desc",
+                url: "https://veronika050987.github.io/react_nika_house_game/",
+                image: house
             }
         ]
 
