@@ -25,14 +25,9 @@
 
 .game h2 a:hover
 {
-    color: #9932CC;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.game h2 a:active
-{
-    color: #BA55D3;
+    background: linear-gradient(to bottom right, #0000FF, #87CEFA, #32CD32);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
     transition: color 0.2s ease;
 }

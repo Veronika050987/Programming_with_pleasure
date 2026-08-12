@@ -45,7 +45,7 @@ const translations =
         game_house_title: "Build a house with HTML",
         game_house_desc: "Build a house with HTML and modify it with CSS styles",
         homepage: "Home page",
-        home_good: "Good code is is just an elegant and perfect way to solve a specific problem. Bad code is a total nightmare. It has a terrible structure and no clear purpose.",
+        home_good: "Good code is just an elegant and perfect way to solve a specific problem. Bad code is a total nightmare. It has a terrible structure and no clear purpose.",
         home_ability: "The ability to write a beautiful and elegant code always comes with time.",
         home_errors: "We learn, make mistakes and try to find creative solutions. Reading code written by more experienced programmers helps us understand our own mistakes and learn how to write cleaner and more accurate code.",
         home_standard: "Most blocks of code can be written in many different ways and with various approaches. ",
