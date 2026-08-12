@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Programming_with_pleasure/static/css/main.07f9fcab.css",
-    "main.js": "/Programming_with_pleasure/static/js/main.f549b6db.js",
+    "main.css": "/Programming_with_pleasure/static/css/main.d0bccbc6.css",
+    "main.js": "/Programming_with_pleasure/static/js/main.1d90d31f.js",
     "static/media/lemourchik.png": "/Programming_with_pleasure/static/media/lemourchik.1f30b3211dd57e358d0b.png",
     "static/media/house.png": "/Programming_with_pleasure/static/media/house.df6fa9b0de5fbc3e327e.png",
     "static/media/khao.png": "/Programming_with_pleasure/static/media/khao.6a0f0daa7449ead1641a.png",
@@ -12,11 +12,11 @@
     "static/media/quitz.png": "/Programming_with_pleasure/static/media/quitz.e2ed4ba2684e4980f13e.png",
     "static/media/logo.svg": "/Programming_with_pleasure/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Programming_with_pleasure/index.html",
-    "main.07f9fcab.css.map": "/Programming_with_pleasure/static/css/main.07f9fcab.css.map",
-    "main.f549b6db.js.map": "/Programming_with_pleasure/static/js/main.f549b6db.js.map"
+    "main.d0bccbc6.css.map": "/Programming_with_pleasure/static/css/main.d0bccbc6.css.map",
+    "main.1d90d31f.js.map": "/Programming_with_pleasure/static/js/main.1d90d31f.js.map"
   },
   "entrypoints": [
-    "static/css/main.07f9fcab.css",
-    "static/js/main.f549b6db.js"
+    "static/css/main.d0bccbc6.css",
+    "static/js/main.1d90d31f.js"
   ]
 }
