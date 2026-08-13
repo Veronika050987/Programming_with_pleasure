@@ -20,6 +20,10 @@
 .game h2 a
 {
     text-decoration: none;
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-text-fill-color: #4B0082;
     transition: color 0.2s ease;
 }
 
@@ -27,6 +31,7 @@
 {
     background: linear-gradient(to bottom right, #0000FF, #87CEFA, #32CD32);
     -webkit-background-clip: text;
+    background-clip: text; 
     -webkit-text-fill-color: transparent;
     text-decoration: none;
     transition: color 0.2s ease;

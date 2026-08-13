@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 import quitz from '../img/quitz.png';
 import monster2 from '../img/monster2.png';
 import car from '../img/car.png';
-import house from '../img/house.png';
+import housik from '../img/housik.png';
+import CRUD2 from '../img/CRUD2.png';
 import { LanguageContext } from './LanguageContext';
 
 
@@ -37,7 +38,13 @@ function Games()
                 titleKey: "game_house_title",
                 contentKey: "game_house_desc",
                 url: "https://veronika050987.github.io/react_nika_house_game/",
-                image: house
+                image: housik
+            },
+            {
+                titleKey: "game_kids_garage",
+                contentKey: "game_kids_garage_desc",
+                url: "https://veronika050987.github.io/crud_kids_garage/",
+                image: CRUD2
             }
         ]
 
