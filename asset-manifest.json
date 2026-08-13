@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Programming_with_pleasure/static/css/main.d0bccbc6.css",
-    "main.js": "/Programming_with_pleasure/static/js/main.1d90d31f.js",
+    "main.css": "/Programming_with_pleasure/static/css/main.c6f345e2.css",
+    "main.js": "/Programming_with_pleasure/static/js/main.2c69c9ff.js",
     "static/media/lemourchik.png": "/Programming_with_pleasure/static/media/lemourchik.1f30b3211dd57e358d0b.png",
-    "static/media/house.png": "/Programming_with_pleasure/static/media/house.df6fa9b0de5fbc3e327e.png",
+    "static/media/CRUD2.png": "/Programming_with_pleasure/static/media/CRUD2.885d9fd6f79dccdca56e.png",
     "static/media/khao.png": "/Programming_with_pleasure/static/media/khao.6a0f0daa7449ead1641a.png",
+    "static/media/housik.png": "/Programming_with_pleasure/static/media/housik.92f237dae7c0ed67f77e.png",
     "static/media/bee.png": "/Programming_with_pleasure/static/media/bee.1ebb260abf8f14948d15.png",
     "static/media/car.png": "/Programming_with_pleasure/static/media/car.c42702c6c7fa3fdc8753.png",
     "static/media/monster2.png": "/Programming_with_pleasure/static/media/monster2.75ba069b753cd2814868.png",
@@ -12,11 +13,11 @@
     "static/media/quitz.png": "/Programming_with_pleasure/static/media/quitz.e2ed4ba2684e4980f13e.png",
     "static/media/logo.svg": "/Programming_with_pleasure/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Programming_with_pleasure/index.html",
-    "main.d0bccbc6.css.map": "/Programming_with_pleasure/static/css/main.d0bccbc6.css.map",
-    "main.1d90d31f.js.map": "/Programming_with_pleasure/static/js/main.1d90d31f.js.map"
+    "main.c6f345e2.css.map": "/Programming_with_pleasure/static/css/main.c6f345e2.css.map",
+    "main.2c69c9ff.js.map": "/Programming_with_pleasure/static/js/main.2c69c9ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0bccbc6.css",
-    "static/js/main.1d90d31f.js"
+    "static/css/main.c6f345e2.css",
+    "static/js/main.2c69c9ff.js"
   ]
 }
