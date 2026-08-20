@@ -7,6 +7,7 @@ import monster2 from '../img/monster2.png';
 import car from '../img/car.png';
 import housik from '../img/housik.png';
 import CRUD2 from '../img/CRUD2.png';
+import loupik1 from '../img/loupik1.png';
 import { LanguageContext } from './LanguageContext';
 
 
@@ -45,6 +46,12 @@ function Games()
                 contentKey: "game_kids_garage_desc",
                 url: "https://veronika050987.github.io/crud_kids_garage/",
                 image: CRUD2
+            },
+            {
+                titleKey: "game_webka",
+                contentKey: "game_webka_desc",
+                url: "https://veronika050987.github.io/nika_react_csharpik/",
+                image: loupik1
             }
         ]
 
