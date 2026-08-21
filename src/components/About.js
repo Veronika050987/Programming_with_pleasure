@@ -1,7 +1,7 @@
 import './About.css';
 import lemourchik from '../img/lemourchik.png';
 import bee from '../img/bee.png';
-import khao from '../img/khao.png';
+import baby from '../img/baby.png';
 import React, { useContext } from 'react';
 import { LanguageContext } from './LanguageContext';
 
@@ -18,7 +18,7 @@ function About()
                     <p>{ t('about_lemour') }</p>
                 </div>
                 <div className='programming-block'>
-                    <img src={khao} alt="khao"/>
+                    <img src={baby} alt="baby"/>
                     <p>{ t('about_khao') }</p>
                 </div>
                 <div className='programming-block'>
