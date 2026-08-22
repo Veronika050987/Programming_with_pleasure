@@ -1,5 +1,5 @@
 import './About.css';
-import lemourchik from '../img/lemourchik.png';
+import lemo_baby from '../img/lemo_baby.png';
 import bee from '../img/bee.png';
 import baby from '../img/baby.png';
 import React, { useContext } from 'react';
@@ -14,7 +14,7 @@ function About()
             
             <div className='container'>
                 <div className='programming-block'>
-                    <img src={lemourchik} alt="lemourchik"/>
+                    <img src={lemo_baby} alt="lemo_baby"/>
                     <p>{ t('about_lemour') }</p>
                 </div>
                 <div className='programming-block'>
