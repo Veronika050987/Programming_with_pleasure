@@ -4,10 +4,10 @@ import Game from './Game';
 import { Link } from 'react-router-dom';
 import quitz from '../img/quitz.png';
 import monster2 from '../img/monster2.png';
-import car from '../img/car.png';
+import red_car_mod from '../img/red_car_mod.png';
 import housik from '../img/housik.png';
 import CRUD2 from '../img/CRUD2.png';
-import loupik1 from '../img/loupik1.png';
+import final from '../img/final.png';
 import { LanguageContext } from './LanguageContext';
 
 
@@ -33,7 +33,7 @@ function Games()
                 titleKey: "game_sql_garage", 
                 contentKey: "game_sql_garage_desc",
                 url: "https://veronika050987.github.io/sql_game/",
-                image: car
+                image: red_car_mod
             },
             {
                 titleKey: "game_house_title",
@@ -51,7 +51,7 @@ function Games()
                 titleKey: "game_webka",
                 contentKey: "game_webka_desc",
                 url: "https://veronika050987.github.io/nika_react_csharpik/",
-                image: loupik1
+                image: final
             }
         ]
 
