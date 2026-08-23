@@ -14,15 +14,15 @@ function About()
             
             <div className='container'>
                 <div className='programming-block'>
-                    <img src={lemo_baby} alt="lemo_baby"/>
+                    <img src={lemo_baby} alt="lemo_baby" loading="lazy" aspectRatio= '1 / 1'/>
                     <p>{ t('about_lemour') }</p>
                 </div>
                 <div className='programming-block'>
-                    <img src={baby} alt="baby"/>
+                    <img src={baby} alt="baby" loading="lazy" aspectRatio= '1 / 1'/>
                     <p>{ t('about_khao') }</p>
                 </div>
                 <div className='programming-block'>
-                    <img src={bee} alt="bee"/>
+                    <img src={bee} alt="bee" loading="lazy" aspectRatio= '1 / 1'/>
                     <p>{ t('about_bee') }</p>
                 </div>
             </div>
