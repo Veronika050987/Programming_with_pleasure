@@ -7,7 +7,8 @@ import monster2 from '../img/monster2.png';
 import red_car_mod from '../img/red_car_mod.png';
 import housik from '../img/housik.png';
 import CRUD2 from '../img/CRUD2.png';
-import final from '../img/final.png';
+import wheel from '../img/wheel.png';
+import key from '../img/key.png';
 import { LanguageContext } from './LanguageContext';
 
 
@@ -51,7 +52,13 @@ function Games()
                 titleKey: "game_webka",
                 contentKey: "game_webka_desc",
                 url: "https://veronika050987.github.io/nika_react_csharpik/",
-                image: final
+                image: wheel
+            },
+            {
+                titleKey: "game_webka_key",
+                contentKey: "game_webka_key_desc",
+                url: "https://veronika050987.github.io/react_nika_danya_http/",
+                image: key
             }
         ]
 
