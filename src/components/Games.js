@@ -9,6 +9,7 @@ import housik from '../img/housik.png';
 import CRUD2 from '../img/CRUD2.png';
 import wheel from '../img/wheel.png';
 import key from '../img/key.png';
+import bus from '../img/bus.png';
 import { LanguageContext } from './LanguageContext';
 
 
@@ -59,6 +60,12 @@ function Games()
                 contentKey: "game_webka_key_desc",
                 url: "https://veronika050987.github.io/react_nika_danya_http/",
                 image: key
+            },
+            {
+                titleKey: "game_webka_address",
+                contentKey: "game_webka_address_desc",
+                url: "https://veronika050987.github.io/nika_react_address/",
+                image: bus
             }
         ]
 
